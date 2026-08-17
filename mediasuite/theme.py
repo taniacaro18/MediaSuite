@@ -1,4 +1,4 @@
-"""Pastel rosa / azul / morado, estilo editor (CapCut / Filmora)."""
+"""Pastel rosa / azul / morado."""
 
 BG = "#F3EEFA"
 SIDEBAR = "#2F2148"

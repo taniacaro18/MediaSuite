@@ -248,7 +248,7 @@ class PathRow(ctk.CTkFrame):
 
 
 class DropZone(ctk.CTkFrame):
-    """Zona de importar media, tipo CapCut: hover + clic."""
+    """Zona de importar media: hover + clic."""
 
     def __init__(
         self,
@@ -278,7 +278,7 @@ class DropZone(ctk.CTkFrame):
         )
         self.title_label.pack()
         self.hint = ctk.CTkLabel(
-            inner, text="Haz clic para elegir el archivo  ·  como en CapCut",
+            inner, text="Haz clic para elegir el archivo",
             text_color=MUTED, font=ctk.CTkFont(size=12),
         )
         self.hint.pack(pady=(2, 0))

@@ -18,7 +18,7 @@ class HomeView(ctk.CTkScrollableFrame):
             self,
             "inicio",
             "¿Qué quieres editar?",
-            "Pasa el mouse sobre una herramienta y haz clic en toda la tarjeta. Igual que en CapCut o Filmora.",
+            "Pasa el mouse sobre una herramienta y haz clic en toda la tarjeta para abrirla.",
         ).pack(fill="x", pady=(4, 14))
 
         cards = [
